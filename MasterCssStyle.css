@@ -1,0 +1,50 @@
+/* Class based */
+.Topbar
+{
+	display: flex;
+	align-items: center;
+	gap: 60px;
+	background-color: green;
+	margin: 0;
+	padding: 8px 16px;
+	border: 1px solid black;
+	list-style: none;
+	font-size: 20px;
+}
+
+.CategoryButtons
+{
+	list-style: none;
+	display: flex;
+	gap: 12px;
+	padding: 0;
+	margin: 0 0 16px 0;
+}
+
+.LogoImage
+{
+	height: 64px;
+	width: auto;
+	display: block;
+	padding: 0;
+}
+
+.ContactInformation
+{
+    background-color: green;
+    padding: 1%;
+}
+
+/* Direct references */
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+body
+{
+	margin: 1%;
+	font-family: Arial;
+	padding: 0;
+}
